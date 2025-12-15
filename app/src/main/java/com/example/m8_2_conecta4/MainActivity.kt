@@ -125,9 +125,9 @@ class MainActivity : AppCompatActivity() {
 
         // Cambiar turno
         if (currentPlayer == 1)
-            currentPlayer = 1
-        else
             currentPlayer = 2
+        else
+            currentPlayer = 1
 
         val turnText: TextView = findViewById(R.id.turnText)
 
